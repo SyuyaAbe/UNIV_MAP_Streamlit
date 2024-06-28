@@ -3,5 +3,3 @@ folium
 streamlit-folium
 pprint
 pandas
-gspread
-oauth2client
