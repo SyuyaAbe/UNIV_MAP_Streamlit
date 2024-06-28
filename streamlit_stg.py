@@ -4,7 +4,7 @@ from streamlit_folium import folium_static
 import pandas as pd
 
 # CSVファイルを読み込む
-df = pd.read_csv('UNIV_MST.csv')
+df = pd.read_csv('./UNIV_MST.csv')
 
 # 必要なカラムを抽出
 columns_to_select = ['UNIV_NAME', 'LATITUDE', 'LONGITUDE', 'FACULTY', 'KEITOU_NM']
